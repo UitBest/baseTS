@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+
+      "module": "ESNext",
+      "target": "ESNext",
+      "strict": false,
+      "esModuleInterop": true,
+      "jsx": "preserve",
+      "skipLibCheck": true,
+      "isolatedModules": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "allowJs": true,
+      "forceConsistentCasingInFileNames": true,
+
+    "paths": {
+        "@/*": ["./resources/*"]
+    },
+  },
+    "exclude": [
+        "**/node_modules/**",
+        "**/dist/**",
+    ]
+}
